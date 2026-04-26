@@ -2,9 +2,9 @@ import streamlit as st
 import os
 import tempfile
 import time
-from src.document_processor import DocumentProcessor
-from src.vector_store import VectorStore
-from src.llm import LLMHandler
+from document_processor import DocumentProcessor
+from vector_store import VectorStore
+from llm import LLMHandler
 
 # ─── Page Config ────────────────────────────────────────────────────────────
 st.set_page_config(
